@@ -39,3 +39,15 @@ do {
 } while responses < 3);
 
 consol.log("Collected 3 responses.");
+
+// Task 5
+let employee = {
+  name: "Natalie",
+  position: "Manager",
+  Salary: 75000
+};
+
+for (let key in employee) {
+  consol.log('${key}: ${employee[key]}');
+}
+
