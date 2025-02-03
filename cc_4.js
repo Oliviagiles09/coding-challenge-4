@@ -51,3 +51,9 @@ for (let key in employee) {
   consol.log('${key}: ${employee[key]}');
 }
 
+// Task 6 
+let products = ["Laptop", "Mouse", "Keyboard"];
+
+for (let product of products) {
+  consol.log('Product: ${product}');
+}
