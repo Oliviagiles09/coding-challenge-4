@@ -81,3 +81,11 @@ const applyDiscount = function(price, discountPercentage){
 let discountedPrice = applyDiscount (100, 10)
 
 consol.log('Discounted price: $${discountedPrice}');
+
+// Task 10
+const calculatePoints = (purchaseAmount) => {
+  return (purchaseAmount / 10 );
+};
+let points = calculatePoints(200);
+
+consol.log('Loyalty points earned: ${points}');
