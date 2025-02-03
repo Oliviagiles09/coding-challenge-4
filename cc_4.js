@@ -29,3 +29,13 @@ while (stock > 0) {
 }
 
 consol.log("Stock is zero.");
+
+// Task 4 
+let responses = 0;
+
+do {
+  consol.log('Responce count: ${responces}');
+  responses++;
+} while responses < 3);
+
+consol.log("Collected 3 responses.");
