@@ -19,3 +19,13 @@ for (let i = 0; i < sales.length; i++) {
 }
 
 consol.log('Total sales: $${totalSales}');
+
+// Task 3 
+let stock = 10;
+
+while (stock > 0) {
+  consol.log('Stock remaining: ${stock}');
+  stock--;
+}
+
+consol.log("Stock is zero.");
